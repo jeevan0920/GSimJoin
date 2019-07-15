@@ -1,0 +1,3 @@
+g++ pagerank.cpp -o pg
+g++ --std=c++11 main.cpp -o gsj
+./gsj s 0.8 new_random.txt
