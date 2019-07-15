@@ -1,3 +1,11 @@
+# Genearte the executable for Page rank algorithm
 g++ pagerank.cpp -o pg
+
+# Generate the executable for GSimJoin
 g++ --std=c++11 main.cpp -o gsj
+
+# Execute the binary, arguements are : 
+# 1 -> "Similarity type(In our case it is only sequence similarity as s)"
+# 2 -> Similarity Threshold
+# 3 -> Path to dataset
 ./gsj s 0.8 new_random.txt
